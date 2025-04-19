@@ -15,8 +15,8 @@ if tmp==1:
     print("target value not found in list")
 else:
     print("target value found in list at location",tmp)
-x=list(range(1,1000))
-plt.plot(x,x)
+
+
 plt.title("linear-time complexity is O(log n)")
 plt.xlabel("input")
 plt.ylabel("time")
